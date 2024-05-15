@@ -1,0 +1,62 @@
+{
+  "id": "vBcAS5Q7xFu1yVlfLkW4y",
+  "created": "2024-05-15T07:45:31.054Z",
+  "updated": "2024-05-15T07:45:31.054Z",
+  "projectId": "ew9VVsFqhT4L47IkbCssJ",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "5kh9CKbOx4TxbnyRePaWj",
+    "created": "2024-05-15T07:45:31.072Z",
+    "updated": "2024-05-15T07:45:44.089Z",
+    "flowId": "vBcAS5Q7xFu1yVlfLkW4y",
+    "displayName": "未命名",
+    "trigger": {
+      "name": "trigger",
+      "type": "PIECE_TRIGGER",
+      "valid": false,
+      "settings": {
+        "input": {},
+        "pieceName": "@activepieces/piece-activecampaign",
+        "pieceType": "OFFICIAL",
+        "inputUiInfo": {
+          "customizedInputs": {}
+        },
+        "packageType": "REGISTRY",
+        "triggerName": "activecampaign_deal_task_completed",
+        "pieceVersion": "~0.0.3"
+      },
+      "nextAction": {
+        "name": "step_1",
+        "type": "PIECE",
+        "valid": false,
+        "settings": {
+          "input": {},
+          "pieceName": "@activepieces/piece-activepieces",
+          "pieceType": "OFFICIAL",
+          "actionName": "create_project",
+          "inputUiInfo": {
+            "customizedInputs": {}
+          },
+          "packageType": "REGISTRY",
+          "pieceVersion": "~0.0.5",
+          "errorHandlingOptions": {
+            "retryOnFailure": {
+              "value": false
+            },
+            "continueOnFailure": {
+              "value": false
+            }
+          }
+        },
+        "displayName": "Create Project"
+      },
+      "displayName": "Deal Task Completed"
+    },
+    "updatedBy": "wZCcTLMSQ69VJHu18CS6Z",
+    "valid": false,
+    "state": "DRAFT"
+  }
+}
