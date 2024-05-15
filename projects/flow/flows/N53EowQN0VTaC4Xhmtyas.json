@@ -1,0 +1,27 @@
+{
+  "id": "N53EowQN0VTaC4Xhmtyas",
+  "created": "2024-05-15T07:49:30.432Z",
+  "updated": "2024-05-15T07:49:30.432Z",
+  "projectId": "cmirBdwcAX5LN9gPYzOCZ",
+  "folderId": null,
+  "status": "DISABLED",
+  "schedule": null,
+  "publishedVersionId": null,
+  "version": {
+    "id": "ZYK1CtQzb2xW49oC1ENFy",
+    "created": "2024-05-15T07:49:30.461Z",
+    "updated": "2024-05-15T07:49:30.461Z",
+    "flowId": "N53EowQN0VTaC4Xhmtyas",
+    "displayName": "Untitled",
+    "trigger": {
+      "name": "trigger",
+      "type": "EMPTY",
+      "valid": false,
+      "settings": {},
+      "displayName": "Select Trigger"
+    },
+    "updatedBy": null,
+    "valid": false,
+    "state": "DRAFT"
+  }
+}
